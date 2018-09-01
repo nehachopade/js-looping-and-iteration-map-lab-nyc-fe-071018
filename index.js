@@ -16,3 +16,7 @@ function nameToAttributes(drivers){
     return obj
   })
 }
+
+function attributesToPhrase(drivers){
+  return drivers.map((driver)=>)
+}
