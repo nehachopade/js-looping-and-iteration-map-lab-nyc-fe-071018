@@ -10,8 +10,9 @@ function nameToAttributes(drivers){
     const driverFirst=(driver.split(" "))[0];
     const driverLast = (driver.split(" "))[1];
     let obj = {
-      object.firstName : driverFirst;
-      object.lastName : driverlast;
+      firstName: driverFirst,
+      lastName: driverlast
     }
+    return obj
   })
 }
